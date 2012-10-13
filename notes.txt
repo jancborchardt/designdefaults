@@ -1,0 +1,143 @@
+SMALL PATTERNS
+
+
+designdefaults.com
+
+NATURAL: morphing, texture, 
+
+
+alphabetic sorting is largely ridiculous. Sort by frequency and recency first (automatic favorites).
+
+music player: remove stop (pause or back instead), remove fast skipping (big time slider instead)
+big cover or video, fading songs, sound balancing, search all sources, 
+
+
+undo instead of warning (Aza Raskin article)
+
+simplicity, no duplication (contextual menu bar, see design by this mac guy for copypaste on marking)
+
+naming: intermediate capitals in words or names are ridiculous. People are not stupid as to not know it.
+
+email: directly in answer mode
+
+notifications: have a sensible default for notifications, sending people an email for everything is annoying. http://notificationcontrol.com/
+
+upload: simple button & direct upload (ownCloud, jQuery plugin?)
+
+pictures behind glass (Bret Victor article)
+
+frictionless sharing (oReilly article)
+
+http://linguapragma.com/blog/2012/04/foo-bar-and-baz-not-having-it/
+
+
+no fancy useless 404 pages! (see github.com/404)
+
+anything reflecting or annoying on a laptop
+
+
+SEARCH
+* instant search
+* fuzzy matching
+* never have empty search results!
+* results appear & disappear humanely, by height in- & decrease
+* when not primary action: show only narrow search field, expand when it’s clicked into
+
+
+SAVE
+* web app: suppress Ctrl+S website save dialog and save current document
+
+
+
+
+cancel: no explicit cancel button, rather back, or if it’s a modal an x in the corner or just clicking outside of it.
+
+
+Right-click is stupid, obscures needed functions with less relevant stuff. Entries like cut, copy & paste could be solved with a small tooltip on marking text, similar to what iOS does.
+
+Menu bars: Most often just duplicate functions which are readily available elsewhere in the interface. Offering more ways to do one thing does not make it easier to use the software.
+
+Double-click: The most common action for files or folders is to open them and not to select. Also, double clicking takes longer, is difficult for muscle impaired people and leads to people double-clicking in web sites as well.
+
+Scroll direction: Natural scrolling. Scroll direction is just purely learned. Get a person who never used a computer before, how do they move the page? (Answer: They try to touch the screen.)
+
+Monospace typefaces: Just why can’t console output be displayed in an aesthetic typeface?
+
+Settings: Not only advanced users go to the settings. If people actually need to change something, the option they need gets obscured by other options. If there are too many settings in your software, rethink your target group.
+
+In general, software can’t and should not aim to cater to everyone. If you develop software there are most certainly always people who do similar things which also mostly cater to more technical people.
+
+
+Passwords don’t need to be complicated, read Thomas Baekdal on the usability of passwords: http://www.baekdal.com/insights/password-security-usability
+
+Repeat password fields are just annoying. Consider to stop password masking: http://www.useit.com/alertbox/passwords.html
+
+Similarly, repeat email fields are just copy-pasted into. Rather solve it: http://www.userglue.com/blog/2009/09/09/solving-the-repeat-email-address-form-issue-maybe/
+
+I hope everyone knows that Captchas are the worst. Users should not need to make up for flawed security in the software.
+
+Pop-ups of any kind disturb the user’s flow. People are very likely to dismiss them. Hence, never use a warning when you mean undo: http://www.alistapart.com/articles/neveruseawarning
+
+
+favicon! and title needs to be most local info first, then global site name: »Article title - Wikipedia«
+
+
+capitalized words in titles actually detrimental to readability? Because we recognize words more than we read them.
+
+
+alerts and modals rip people out of their flow, never use alert();, always inline notifications
+
+
+image popovers: pure image, no frame (maybe small description/title below), grey half transparent background, static left and right buttons, x at top right
+
+
+
+TEXTAREA
+* Have no intermittent scrollbars! Automatically fix text boxes to text. https://github.com/jackmoore/autosize – should always be as big as necessary
+* textarea { resize:none; overflow:auto; } (remove resize handles and scrollbars)
+* use placeholder text! / infield labels http://fuelyourcoding.com/scripts/infield/ – less noise, better relation of label to field
+
+
+
+PHOTOS / LIGHTBOX
+* image maximal original size or down-scaled to fit height/width + some margin, whatever touches edges first – to have all in one view
+* grey half-transparent background with noise, slight box-shadow, no border – focus on image
+* elastic effect like on http://fancybox.net – make relation more obvious
+* advance by clicking image, next/previous arrows on absolute left and right – relative controls change positions
+* advance effect: move images to left and right – make position more obvious
+* close by clicking absolute top right X, or click outside of image – "
+* multiple images: show other images as thumbnails on bottom – easy location through visual cues
+* prevent scroll in image view – accidental scroll
+* preload the big images and/or preload next images when in view – no extra wait, intention to view photos is clear
+http://www.jacklmoore.com/colorbox (most watched)
+http://lokeshdhakar.com/projects/lightbox2/ (classic?)
+http://gettopup.com/ (elastic effect)
+http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/ (thumbnails for other images)
+
+
+
+
+CONVEY AGE OR SIZE BY TEXT BRIGHTNESS
+
+
+First run state: should not at all be empty. But rather prompt for importing https://37signals.com/svn/posts/3210-backstage-designing-the-new-basecamp-blank-slates
+
+
+Complex words should be replaced by easy, less technical alternatives
+	
+URL / URI → link
+cut http://, www. and trailing slashes, every unnecessary part of the address
+IRC channel → chat room (link to webchat.freenode.net/?channels=channelname)
+bug → issue
+avatar → (profile) image
+(re)boot → (re)start
+trash → deleted (files) (autosave should be standard)
+successfully saved → remove »successfully«
+music file, image file → remove »file«
+MIME type → file type
+Cc → just remove that function altogether, why not just add as additional recipient?
+Bcc → send hidden? Blind copy isn’t really the solution
+
+
+user menu: top right, user icon rounded, user name, caret with dropdown: [Profile, Settings, Sign Out]
+
