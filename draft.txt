@@ -2,20 +2,6 @@ go through file:///home/user/jancborchardt.github.com/usability-in-free-software
 and design & test
 
 
-TOPIC
-Design Defaults
-Essential interaction design
-stuff which I find I need to repeat over and over again
-
-
-JAN
-share image
-ownCloud
-Unhosted & remotestorage
-Terms of Service; Didn’t Read
-(bunch of other projects: Github projects screenshot, insert OpenUsability, Strut, Tent, StuttgartJS, Tel Aviv JS,
-Usability in Free Software
-
 
 WORKING
 modal

@@ -12,8 +12,6 @@ music player: remove stop (pause or back instead), remove fast skipping (big tim
 big cover or video, fading songs, sound balancing, search all sources, 
 
 
-undo instead of warning (Aza Raskin article)
-
 simplicity, no duplication (contextual menu bar, see design by this mac guy for copypaste on marking)
 
 naming: intermediate capitals in words or names are ridiculous. People are not stupid as to not know it.
