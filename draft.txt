@@ -4,8 +4,6 @@ screenshots:
 iOS copypaste popclip, Etch.js
 owncloud size & age on hover
 sorting
-search box & results
-google image search results
 
 
 go through file:///home/user/jancborchardt.github.com/usability-in-free-software.html
