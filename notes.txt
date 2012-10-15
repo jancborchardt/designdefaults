@@ -1,10 +1,4 @@
-SMALL PATTERNS
-
-
-designdefaults.com
-
 NATURAL: morphing, texture, 
-
 
 alphabetic sorting is largely ridiculous. Sort by frequency and recency first (automatic favorites).
 
@@ -27,9 +21,6 @@ pictures behind glass (Bret Victor article)
 frictionless sharing (oReilly article)
 
 http://linguapragma.com/blog/2012/04/foo-bar-and-baz-not-having-it/
-
-
-no fancy useless 404 pages! (see github.com/404)
 
 anything reflecting or annoying on a laptop
 

@@ -1,51 +1,16 @@
+
+working on computer image
+screenshots:
+iOS copypaste popclip, Etch.js
+owncloud size & age on hover
+sorting
+search box & results
+google image search results
+
+
 go through file:///home/user/jancborchardt.github.com/usability-in-free-software.html
-and design & test
 
 
-
-WORKING
-modal
-nuclear explosion → work lost
-show of hands: who did that happen to?
-
-
-UNDO
-instead of modal
-alistapart aza raskin
-Gmail undo send, ownCloud undo delete
-just lie!
-
-
-
-PASSWORD repeat (purpose: prevent error … with introducing more potential for error? coding horror show password, Apple, Windows)
-EMAIL repeat (userglue article, mailcheck.js)
-SIGN IN/UP (Tumblr)
-USER MENU (5apps jan/account/log out, log out is not primary …, user menu gun.io)
-
-CANCEL (button directly next to submit = WTF, or just text far away, or just no cancel! [sign up form, »people are used to it«])
-CLOSE (button … just X in the top right)
-
-SEARCH (instant, fuzzy, never »no results« but show next relevant)
-SORT (A-Z …, rather by relevance or activity, or last used)
-AGE (last edited, greying, Litewrite, relative with absolute on hover)
-SIZE (mostly interesting either for sending or for downloading, ownCloud MB [crazy on hover], file manager folder size fail, greying here also)
-
-LOAD MORE (button, what do you think I’ll do?, shit work, click it, engaging, Google image search, AUTOMATIC)
-TEXTBOX (intermittent scrolling, automatically resize, autosize plugin)
-INFIELD LABELS ?
-
-RIGHT CLICK (hard to discover, Tablets, Youtify & ownCloud)
-CONTEXTUAL CONTROLS (law of proximity, Strut, popover menus like iOS, etch)
-LIGHTBOX (buttons jump, lightbox screenshot, absolute position)
-
-FEEDBACK (instant .1s spinner 1s loading bar 10s gtfo)
-BLANK SLATE (not empty state, 37signals)
-404 (unhelpful Github page … what do you think am I going to do? search!, just autosearch)
-EMPTY NEW (under construction, just don’t, especially if settings)
-SETTINGS (users always ask for an option, »put it as a setting«, AUTOMATIC!)
-HIDE ADVANCED (ownCloud install)
-
-LANGUAGE (alienating, URL→link/address, reboot, MIME type, bug, my vs you → profile)
 
 
 littlebigdetails.com
